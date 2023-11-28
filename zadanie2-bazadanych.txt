@@ -1,6 +1,6 @@
 CREATE DATABASE Person;
 
-USE Person;
+USE DATABASE Person;
 
 CREATE TABLE [dbo].People(
     [Id] INT PRIMARY KEY IDENTITY,
