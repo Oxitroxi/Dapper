@@ -1,0 +1,10 @@
+CREATE DATABASE Person;
+
+USE Person;
+
+CREATE TABLE [dbo].People(
+    [Id] INT PRIMARY KEY IDENTITY,
+    [Name] NVARCHAR(255),
+    [Age] INT,
+    [Email] NVARCHAR(255)
+);
